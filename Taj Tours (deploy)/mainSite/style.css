@@ -1,12 +1,12 @@
 /*General Adjustments to the parent properties*/
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
     background-color: black;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 
 a {
@@ -35,7 +35,6 @@ a {
     border-bottom: rgb(226, 207, 94) 2px solid;
     position: relative; /* Ensure border doesn't overflow */
     z-index: 1000; /* Keep the navbar above other content */
-    overflow-x: hidden;
 }
 
 .nav #logo{
@@ -73,7 +72,6 @@ a {
 
 .header{
     background-color: black;
-    overflow-x: hidden;
 }
   
 /* Section for landing page copy */
