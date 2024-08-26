@@ -546,8 +546,8 @@ a {
 /* Media Queries for responsiveness */
 @media (max-width: 764px) {
 
-    body{
-        overflow-x: hidden;
+   body{
+        overflow: hidden;
     }
 
    .nav h2 {
@@ -835,7 +835,7 @@ a {
     }
 
     .contactUs{
-        height: 30vh;
+        height: 140vh;
     }
 
     #forLife{
