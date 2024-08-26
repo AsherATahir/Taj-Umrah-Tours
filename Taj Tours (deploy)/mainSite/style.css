@@ -74,7 +74,7 @@ a {
 
 .header{
     background-color: black;
-    overflow-x: hidden;
+    overflow: hidden;
 }
   
 /* Section for landing page copy */
