@@ -730,7 +730,8 @@ a {
     /* Features section adjustments */
     .features {
         height: auto; /* Allow height to adjust automatically */
-        margin-bottom: 10px;
+        margin-bottom: 90px;
+        margin-top: 100px;
     }
 
     #tripInfo {
