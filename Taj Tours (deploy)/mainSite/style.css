@@ -262,14 +262,13 @@ a {
 .copyDiv4{
     margin-right: 160px;
     width: 400px;
-    font-size: 60px;
     font-family: 'Gothic One', sans-serif, "Times New Roman", serif;
     margin-top: 20px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
     flex-direction: column;
 }
 
@@ -580,7 +579,7 @@ a {
     }
 
     .landingCopy #noNonsense, .landingCopy #justKnowledge {
-        font-size: 25px; /* Adjust font size for better visibility */
+        font-size: 50px; /* Adjust font size for better visibility */
     }
 
     .landingCopy #justKnowledge{
@@ -588,7 +587,7 @@ a {
     }
 
     .landingCopy #onlyUmrah {
-        font-size: 10px; /* Adjust font size for smaller screens */
+        font-size: 18px; /* Adjust font size for smaller screens */
     }
 
     .landingCopy #noNonsense{
@@ -596,7 +595,7 @@ a {
     }
 
     .landingCopy #becomeA{
-        font-size: 10px; /* Adjust font size for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
         margin-bottom: 30px;
     }
 
@@ -676,11 +675,20 @@ a {
         padding: 0px;
     }
 
+    #whyWe{
+        font-size: 48px;
+    }
+
+    #unlikeOther{
+        font-size: 20px;
+    }
+
     .copyDiv4{
         font-size: 8px; /* Adjust font size for mobile */
         margin: 0;
         text-align: center;
         padding: 10px;
+        margin-bottom: 20px;
     }
 
     .imageDiv {
@@ -692,13 +700,9 @@ a {
     #copyImage1 {
         height: auto; /* Allow height to adjust automatically */
         width: 60%; /* Full width */
+        margin-bottom: 20px;
     }
-
-    #unlikeOther{
-        font-size: 10px;
-        margin-bottom: 0px;
-    }
-
+    
     .container{
         width: 100%; /* Ensure the parent container is wide enough */
         display: flex;
@@ -715,6 +719,10 @@ a {
         margin-top: 8px;
         margin-bottom: 20px;
         font-size: 6px;
+    }
+
+    #buttonDiv{
+        margin-top: 20px;
     }
 
     /* Testimonials section adjustments */
@@ -792,6 +800,10 @@ a {
     
     .copyDiv4 {
         padding: 10px 20px; /* Add some padding to give space for the text */
+    }
+
+    .copyDiv5{
+        font-size: 16px;
     }
 
      #offerContainer {
