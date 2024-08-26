@@ -646,7 +646,7 @@ a {
     }
 
     #potential{
-        height: 30px;
+        height: 60px;
         width: 80vw;
         margin-top: 8px;
         margin-bottom: 20px;
@@ -659,7 +659,11 @@ a {
     }
 
     #clickPotential{
-        font-size: 10px;
+        font-size: 18px;
+    }
+
+     #clickPotential2{
+        font-size: 16px;
     }
 
     .copyDiv2, .copyDiv3, .copyDiv5 {
@@ -825,14 +829,14 @@ a {
     }
 
     #potential3{
-        height: 30px;
+        height: 60px;
         margin-top: 25px;
         width: 80vw;
         font-size: 6px;
     }
 
     #potential4{
-        height: 30px;
+        height: 60px;
         margin-top: 25px;
         width: 80vw;
         font-size: 6px;
