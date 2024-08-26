@@ -680,11 +680,11 @@ a {
     }
 
     #unlikeOther{
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .copyDiv4{
-        font-size: 16px; /* Adjust font size for mobile */
+        font-size: 13px; /* Adjust font size for mobile */
         margin: 0;
         text-align: center;
         padding: 10px;
@@ -803,7 +803,7 @@ a {
     }
 
     .copyDiv5{
-        font-size: 16px;
+        font-size: 13px;
     }
 
      #offerContainer {
