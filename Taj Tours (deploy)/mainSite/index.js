@@ -40,33 +40,6 @@ let IntersectionObserver1 = new IntersectionObserver((entries) => {
 
 scrollAnimations.forEach((elem) => IntersectionObserver1.observe(elem));
 
-//hiding video controls
-
-const video = document.getElementById('video');
-
-video.addEventListener('pause', function() {
-  // Hide controls when the video is paused
-  video.removeAttribute('controls');
-});
-
-video.addEventListener('play', function() {
-  // Show controls when the video is playing
-  video.setAttribute('controls', 'controls');
-});
-
-// Optionally, show controls when hovering over the video
-video.addEventListener('mouseenter', function() {
-  if (video.paused) {
-    video.setAttribute('controls', 'controls');
-  }
-});
-
-video.addEventListener('mouseleave', function() {
-  if (video.paused) {
-    video.removeAttribute('controls');
-  }
-});
-
 //center the scroll
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
