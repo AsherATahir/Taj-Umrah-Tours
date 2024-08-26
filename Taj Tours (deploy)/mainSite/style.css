@@ -1,8 +1,9 @@
 /*General Adjustments to the parent properties*/
 html{
     scroll-behavior: smooth;
-    
+    overflow: hidden;
 }
+
 body{
     background-color: black;
     margin: 0px;
