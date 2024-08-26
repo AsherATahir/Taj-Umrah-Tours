@@ -2,9 +2,6 @@
 html{
     scroll-behavior: smooth;
 }
-html, body {
-    overflow-x: hidden;
-}
 body{
     background-color: black;
     margin: 0px;
@@ -134,6 +131,7 @@ a {
 /* video section */
 
 .video{
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
