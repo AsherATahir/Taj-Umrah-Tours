@@ -48,6 +48,7 @@ a {
     height: 150px;
     border-right:  rgb(226, 207, 94) 2px solid;
     border-left: rgb(226, 207, 94) 2px solid;
+     overflow: hidden;
 }
 
 .nav h2{
