@@ -658,6 +658,10 @@ a {
     .aboutUs {
         margin-top: 20px;
         height: auto; /* Allow height to adjust automatically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     #clickPotential{
@@ -677,6 +681,7 @@ a {
 
     #whyWe{
         font-size: 48px;
+         width: 300px;
     }
 
     #unlikeOther{
@@ -689,6 +694,7 @@ a {
         text-align: center;
         padding: 10px;
         margin-bottom: 20px;
+        width: 300px;
     }
 
     .imageDiv {
@@ -804,6 +810,7 @@ a {
 
     .copyDiv5{
         font-size: 13px;
+        width: 300px;
     }
 
      #offerContainer {
